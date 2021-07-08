@@ -1,5 +1,4 @@
-:root
-{
+:root{
   --primary: #100055;
   --secondary: #574000;
   --padding: 15px;
@@ -7,14 +6,22 @@
   --cinza-claro: #dedede;
 }
 
-*
-{
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+}
+
+*{
   font-family: 'Poppins', sans-serif;
 }
 
-.container
-{
-  max-width: 400px;
+.container{
+  max-width: 600px;
   padding: 30px;
   margin: 0 auto;
 }
