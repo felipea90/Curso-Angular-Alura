@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var Concessionaria_1 = require("./Concessionaria");
+var Carro_1 = require("./Carro");
+var Moto_1 = __importDefault(require("./Moto"));
+var carro = new Carro_1.Carro('Ford Ranger', 4);
+carro.Acelerar();
+carro.Acelerar();
+var moto = new Moto_1.default();
+moto.Acelerar();
+moto.Acelerar();
+var concessionaria = new Concessionaria_1.Concessionaria('', []);
+console.log(carro);
+console.log();
+console.log(moto);
+console.log();
+console.log(concessionaria.FornecerHorarioFuncionario());
